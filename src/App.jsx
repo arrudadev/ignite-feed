@@ -1,5 +1,14 @@
-function App() {
-  return <h1>Hello World</h1>
-}
+import { Button } from './Button'
 
-export default App
+export function App() {
+  return (
+    <>
+      <Button />
+      <Button />
+      <Button />
+      <Button />
+      <Button />
+      <Button />
+    </>
+  )
+}
