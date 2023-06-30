@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 1.25rem 0;
+  background-color: var(--gray-800);
+  gap: 1rem;
+}
+
+.header .logo {
+  height: 2rem;
+}
+
+.header .heading {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--gray-100);
+}
